@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- Bootstrap Link -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@300;500;800&display=swap" rel="stylesheet">
+     <!-- Bootstrap JS -->
+     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+ 
+</head>
+
+<style>
+    body{
+        background-image: url("https://lh3.googleusercontent.com/uZvPe0UUeI8QSvkLpIa2Q3rDEKtjtmgRMs2s1RtxGrM_FNnkvv4c2vf8-V5OSAZC_vPNyWcvpY7PKpuPhSvpb-cUJW8uFyt3XjDjQso9a11yu-66zJIP81dK0tdHIhsREyYkXZNYBac7Xwu3QmpfdMugdqWpgMzNtzpPa5W7K9ng8zN_is8IToqp8VWYTrOcBgnoKHjXK9i9fFZ9uA_LIdTcLUUzOeeEvblS9Te_LrfDbi23KZ6nVsr2rjyFGxhX2XCvVQ1FOprOD3WVCyaR2SHILQlXOCukgpPOZJkjBg3k6llbuwhTuBRPq4tHhDcgqC2_EBVo9Z4v4oKwe79NbvPgVtJP7VGwPJJNOKgh8ZOE0NJYdTZt6-LIhkbqw580EWzseyBe0tPfj8DHw26uRha156qw4QKr2dq4KuX0h8R__mqgBGVUTUSrLe2wMUXHTCltItQ73yMnvNeiU6W7pQByIUg911HMR8xo5UvR4BVE91-IiW3J8QkCouIix9tr4UvvNr2t474ACfN_4rvvo8qVUVDIUno84VOWDNvlOQOhAicXvyF42hicB6uOmdoB8AoesfF3D1IMKBedzK3qO1_A5Wr3Txh45dCflmesHyCO3yggUhBsq-Uvx7YWnLkt4m7nNZyKwN0k_Wbi8gzWqurWpPpduM0bLV6tTbNmuSYxOHb76enObNSHQKl32A=w1089-h987-no?authuser=0;");
+        background-repeat: no-repeat;
+        background-position: top;
+        background-size: cover;
+        margin-bottom: 2000px;
+        opacity: 0.88;
+    }
+    body:hover{
+        opacity:1
+    }
+    
+</style>
+
+<body>
+    
+<!-- Nav Bar with Drop down and Search bar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="home.html">
+      <img src="photo_album/white_logo_transparent_background.png" width="50" height="50" alt="">
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="contact.html">Contact Me <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="photos.html"> Photos </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="aboutme.html"> About Me </a>
+        </li>
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+      </form>
+    </div>
+</nav>
+
+    <!-- Photos -->
+        <figure id="fig1" style="margin-top: 2%;">
+            <!-- The Great Bears -->
+            <div class="card" style="width: 38rem;
+                                     position: absolute;
+                                     bottom: 28%;
+                                     right: 69%;">
+                <img src="photo_album/_DSC0717.JPG" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">The Great Bears</h5>
+                  <p class="card-text">
+                        This is one of my favorite photo's I've shot. Sitting right by the campfire
+                        I was able to get this beautiful shot of the stars in the sky from my campsite in 
+                        Big Bear, California. I like to call it "The Great Bears" because just out of frame 
+                        Ursa Major, or the Great Bear constellation, was looking right back down 
+                  </p>
+                  <a href="photo_album/_DSC0717.JPG" class="btn btn-primary">Open Image</a>
+                </div>
+              </div>
+              <!-- Tough Girl -->
+              <div class="card" style="width: 38rem;
+                                       position: absolute;
+                                       bottom: 28%;
+                                       right: 3%;">
+                <img src="photo_album/DSC_0167.JPG" target="_blank" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Tough Girl</h5>
+                  <p class="card-text">
+                        This is Lola, my Dad's chihuahua mix. She's the smallest of the family dogs
+                        but make no mistake, she's not only ready, but eager to take on any sized dog.
+                        She loves a good snuggle, but will often get caught with other dog's lips or ears
+                        pressed between her teeth 
+                  </p>
+                  <a href="photo_album/DSC_0167.JPG" target="_blank" class="btn btn-primary">Open Image</a>
+              </div>
+              <!-- Milo Distracted -->
+              <div class="card" style="width: 38rem; 
+                                       position: absolute;
+                                       bottom: 3.2%;
+                                       right: 113.6%;">
+                <img src="photo_album/DSC_0015.JPG" target="_blank" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Milo Distracted</h5>
+                  <p class="card-text">
+                      Here's my dog Milo. He's my two year old Husky mix and he loves to play.
+                      Milo is my second Husky. Sure, they can be tough dogs to maintain, but 
+                      their unique personalities are unmatched!
+                  </p>
+                  <a href="photo_album/DSC_0015.JPG" class="btn btn-primary">Open Image</a>
+                </div>
+              </div>
+        </figure>
+
+        <figure>
+            <!-- Coachella -->
+            <div class="card mb-3" style="max-width: 625px;
+                                          position: absolute;
+                                          bottom: -5%;
+                                          right: 67.8%;">
+                <div class="row no-gutters">
+                  <div class="col-md-4">
+                    <img src="photo_album/DSC_0516.JPG" class="card-img" alt="...">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title">How I Go to Coachella</h5>
+                      <p class="card-text">
+                          Here's a view of the Coachella Valley and Palm Springs from Key's View in 
+                          Joshua Tree National Park. It's the best seat in the house to pretend like you care
+                          about all the Coachella concerts!
+                      </p>
+                      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                      <a href="photo_album/DSC_0516.JPG" class="btn btn-primary">Open Image</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            <!-- Red Tide -->
+            <div class="card mb-3" style="max-width: 625px;
+                                          position: absolute;
+                                          bottom: -34.8%;
+                                          right: 67.8%;">
+                <div class="row no-gutters">
+                  <div class="col-md-4">
+                    <img src="photo_album/DSC_0534.JPG" class="card-img" alt="...">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title">The Red Tide</h5>
+                      <p class="card-text">
+                          This is a shot of the famous "Red Tide", a special type of bioluminescent algae that gives
+                          off a blue glow to the incoming waves. Just another reason to love my home state of California.
+                      </p>
+                      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                      <a href="photo_album/DSC_0534.JPG" class="btn btn-primary">Open Image</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Favorite Ant -->
+                <div class="card mb-3" style="max-width: 625px;
+                                          position: absolute;
+                                          bottom: -64.4%;
+                                          right: 67.8%;">
+                <div class="row no-gutters">
+                  <div class="col-md-4">
+                    <img src="photo_album/DSC_0630.JPG" class="card-img" alt="...">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title">My Favorite Ant</h5>
+                      <p class="card-text">
+                          If you look close enough, you'll find a shot of a gorgeous ant, perfectly posed and
+                          busily working the day away. There's also a flower too if you're into that kind of thing.
+                      </p>
+                      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                      <a href="photo_album/DSC_0630.JPG" class="btn btn-primary">Open Image</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </figure>
+
+
+        <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel"
+             style="position: absolute;
+                    bottom: -9.7%;
+                    right: 16%;
+                    max-width: 30%;
+                    max-height: 30%;">
+            <ol class="carousel-indicators">
+              <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+              <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+              <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="photo_album/night.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Joshua Tree at Night</h5>
+                  <p>This is a shot from a night-time hike in Joshua Tree. We saw a frog.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="photo_album/climb1.JPG" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Hall of Horrors</h5>
+                  <p>Here's a somewhat challenging are of Joshua Tree. The Hall of Horrors</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="photo_album/climb2.JPG" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Hall of Horrors</h5>
+                  <p>Here's a somewhat challenging are of Joshua Tree. The Hall of Horrors</p>
+                </div>
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+        
+</body>
+
+</html>

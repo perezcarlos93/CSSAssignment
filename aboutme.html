@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- Bootstrap Link -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@300;500;800&display=swap" rel="stylesheet">
+    <!-- Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+    <style>
+      #logo{
+        z-index: 1;
+        display: block;
+        margin: auto;
+        max-width: 100%;
+        max-height: 92%;
+        };
+
+      #jumbotron{
+        background-color: slategray;
+      }
+
+    </style>
+
+<!-- Nav Bar with Drop down and Search bar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="home.html">
+      <img src="photo_album/white_logo_transparent_background.png" width="50" height="50" alt="">
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="contact.html">Contact Me <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="photos.html"> Photos </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="aboutme.html"> About Me </a>
+        </li>
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+      </form>
+    </div>
+  </nav>
+
+
+<!-- About Me JumboTron -->
+<div class="jumbotron jumbotron-fluid" id="jumbotron">
+  <div class="container"
+       style="margin-bottom: -40px;
+              margin-top: -40px;
+              margin-left: auto;
+              margin-right: auto;">
+    <div class="row">
+      <div class="col-sm-7"
+           style="margin-top: 30px;"
+           id="jt_text">
+        <h1 class="display-4"
+            style= "font-family: 'M PLUS Rounded 1c', sans-serif;
+                    font-size: 400%;">
+            <strong>Who Am I?</strong>
+        </h1>
+        <p class="lead"
+           style="font-family: 'M PLUS Rounded 1c', sans-serif;
+                  font-size: 200%;">
+                      Click below to find out!</p>
+      </div>
+      <div class="col-xl-5">
+        <img id="logo" src="photo_album/DSC_0340.JPG" alt="oops!"
+              >
+        </img>
+      </div>
+    </div>
+  </div>
+</div>
+
+  <!-- About Me Accordion -->
+  <div class="accordion" id="accordionExample">
+    <div class="card">
+      <div class="card-header" id="headingOne">
+        <h2 class="mb-0">
+          <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+           Where I'm From
+          </button>
+        </h2>
+      </div>
+  
+      <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+        <div class="card-body">
+          I've lived in LA my whole life. I've spent my years at the beaches, mountains, cruising down Hollywood Blvd,
+          and eating at as many restaurants as I can find
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-header" id="headingTwo">
+        <h2 class="mb-0">
+          <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+            Where I Come From
+          </button>
+        </h2>
+      </div>
+      <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+        <div class="card-body">
+          I have made a career for myself by working in the event production
+          industry. Organizing, setting up and running sound, lighting, and audio for concerts, 
+          corporate meetings, political events, and huge parties has been my job for quite 
+          a while. Nevertheless, sometimes change is necessary.
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-header" id="headingThree">
+        <h2 class="mb-0">
+          <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+            Why Coding?
+          </button>
+        </h2>
+      </div>
+      <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+        <div class="card-body">
+            I've been interested in coding for some time now but always found it difficult to learn it on
+            my own. After spending years in the event industry, I decided that the fast pace, unpredictable
+            nature of it all was not something I wanted in my life anymore. I decided to change careers and
+            coding was one of the first things that came to mind. I love the growth that was possible in the
+            developer industry, and I loved the versatility that I could have as well. Ultimately, I loved
+            learning how to code and create new things from scratch, because that's always what I've loved to do;
+            create.
+        </div>
+      </div>
+    </div>
+  </div>
+
+</body>
+
+</html>
